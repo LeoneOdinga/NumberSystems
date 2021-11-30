@@ -33,7 +33,3 @@ expected results for 11.81 and 21.25 respectively.</p></i>
 
 </tbody>
 </table>
-
-<p>Sample Program output</p>
-
-<img src = "https://mega.nz/file/ypxk3RIK#0mUpYKZN8iantL1-gpQOf-xAhpjGIt3Bxxv5Cr9STk0">
