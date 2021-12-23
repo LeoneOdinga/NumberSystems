@@ -33,3 +33,5 @@ expected results for 11.81 and 21.25 respectively.</p></i>
 
 </tbody>
 </table>
+
+ <h3>2.The File called <em>decToBinToHex.java</em> will be automatically converting decimal numbers from 1 to 256 to equivalent binary numbers and hexadecimal numbers while displaying them on a table<br></h3>
