@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Stack;
 
 
-public class decToBin 
+public class decToBinToHex 
 {
 	/******DRIVER CODE********/
 	
