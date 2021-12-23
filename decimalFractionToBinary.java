@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.Random;
 
-public class FractionToBin 
+public class DecimalFractionToBinary 
 {
   /********DRIVER CODE*******/
   public static void main(String[] args)
