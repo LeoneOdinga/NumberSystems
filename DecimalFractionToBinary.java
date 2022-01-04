@@ -127,8 +127,8 @@ public class DecimalFractionToBinary
 
 	  String RADIXPOINT =".";
 	  
-	  int count =1;
-	  while(count <=30)
+	  
+	  for(int count =1;count <=30;count++)
 	  {
 	
 	  double numberToConvert = generateRandomNumbers();
@@ -150,9 +150,9 @@ public class DecimalFractionToBinary
 	  String verdict = returnRemarks(fractionPartBitQueue);
 	  
 	  System.out.println("_______________________________________________________________________________________________");
-      System.out.printf("%9s %24s %26s %24s %n",count,numberToConvert,finalBinaryOutput,verdict);
+          System.out.printf("%9s %24s %26s %24s %n",count,numberToConvert,finalBinaryOutput,verdict);
 			 
-	  count ++;
+	  
 	   
 	  }
   }
@@ -163,7 +163,7 @@ public class DecimalFractionToBinary
       Random random = new Random();
       
 	  double floatingPointRandom = (random.nextFloat());
-	  int integerRandom = random.ints(1, 5, 31).findFirst().getAsInt();
+	  int integerRandom = random.ints(1, 5, 30).findFirst().getAsInt();
 	  
 	  double generatedRandomNumber = integerRandom + floatingPointRandom;
 	  
