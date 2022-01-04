@@ -17,6 +17,7 @@ public class DecimalFractionToBinary
     displayTable();
 	 
   }
+  //this group work for COA
   
   /*FUNCTION TO TRANSFORM FRACTION PARTS TO BINARY. Using Queues to store the order of most significant bits*/
   public static Queue<Integer> convertFractionPart(double fractionNumber)
