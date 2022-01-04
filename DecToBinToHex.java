@@ -13,7 +13,7 @@ public class DecToBinToHex
   	  System.out.println("===============================================================================================");
       System.out.printf("%12s %34s %36s %n","Decimal(Base 10)","Binary(Base2)","Hexadecimal(Base16)");
 	  System.out.println("===============================================================================================");
-	   
+	   //comment from Moraa
 	  List<Integer>returnedBinaryStream = new ArrayList<Integer>();
       
 	  int counter =0;   //loop from 0 to 256 while generating binary and hex equivalents automatically
