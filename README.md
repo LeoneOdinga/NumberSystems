@@ -45,14 +45,13 @@ expected results for 11.81 and 21.25 respectively.</p></i>
 
  <h3>2.The File called <em>DecToBinToHex.java</em> will be automatically converting decimal numbers from 1 to 256 to equivalent binary numbers and hexadecimal numbers while displaying them on a table<br></h3>
 
- <p>In our project when we run the file a table in displayed with two columns displaying both the numbers in binary nad hexadecimal. 
-   So we loop from 0 to 256 while generating binary and hex equivalents automatically in our function we first convert decimal to Bianry equivalent using stacks and lists if the number is zero we return the result and if number greater than zero then continue dividing by 2 while keeping track of the remainders then we use the stack push.This can be done using modulus 2.<br>
+ <p>In our project when we run the DecToBinToHex.java file, a table is displayed with two columns displaying both the numbers in binary and hexadecimal. 
+   So we loop from 0 to 256 while generating binary and hex equivalents automatically. We first convert decimal to Binary equivalent using stacks and lists. If the number is zero we return the result and if number greater than zero then continue dividing by 2 while keeping track of the remainders then we use the stack push.This can be done using modulus 2.<br>
     
-     Say you want to convert 11 to binary you divide 11/2 to get 5 reminder 5 hence 1 then the 5 is divided by 2 again and so on and fouth. 
 
     We later have a while loop that groups into blocks of 4 bits in the output for the next step to convert it to hexadecimal.
    Since we used stacks the final output list read from the most significant bit(falls at top of the stack)
-   Then lastly we have a function to convert decimal to hexadecimal. Using the same method as in the decimal to binary only that in here we do modulus 16 instead of modulus 2
+   Then lastly we have a function to convert decimal to hexadecimal. Using the same method as in the decimal to binary only that in here we do modulus 16 instead of modulus 2.
 </p>
 
 <h4>Example of the table</h4>
@@ -80,9 +79,6 @@ expected results for 11.81 and 21.25 respectively.</p></i>
 
 </tbody>
 </table> 
-
-
- </h1><i> All contributions were done via GitHub.</h1></i>
 
 
 
