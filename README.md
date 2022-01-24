@@ -2,12 +2,6 @@
  <h2><b>Implementations of various number systems</b></h2>
 
  <h3> The contributers of the project are: </h3>
-    <li> Leone Odinga</li> 
-    <li>Tinda Canon</li>
-    <li>Ian Kasili</li>
-    <li>Cynthia Moraa</li>
-
-
 
  
  <h3>1. The File called <em>DecimalFractionToBinary.java</em> will be converting floating point numbers to equivalent binary numbers according to the following question:<br></h3>
@@ -44,17 +38,10 @@ expected results for 11.81 and 21.25 respectively.</p></i>
 </table>
 
  <h3>2.The File called <em>DecToBinToHex.java</em> will be automatically converting decimal numbers from 1 to 256 to equivalent binary numbers and hexadecimal numbers while displaying them on a table<br></h3>
-
- <p>In our project when we run the DecToBinToHex.java file, a table is displayed with two columns displaying both the numbers in binary and hexadecimal. 
-   So we loop from 0 to 256 while generating binary and hex equivalents automatically. We first convert decimal to Binary equivalent using stacks and lists. If the number is zero we return the result and if number greater than zero then continue dividing by 2 while keeping track of the remainders then we use the stack push.This can be done using modulus 2.<br>
     
-
-    We later have a while loop that groups into blocks of 4 bits in the output for the next step to convert it to hexadecimal.
-   Since we used stacks the final output list read from the most significant bit(falls at top of the stack)
-   Then lastly we have a function to convert decimal to hexadecimal. Using the same method as in the decimal to binary only that in here we do modulus 16 instead of modulus 2.
 </p>
 
-<h4>Example of the table</h4>
+<h4>Table Illustration</h4>
 <table>
 <thead>
 
