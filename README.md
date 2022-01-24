@@ -1,8 +1,5 @@
 </h1><i> NumberSystems (Courtesy of COA Group Project)</h1></i>
  <h2><b>Implementations of various number systems</b></h2>
-
- <h3> The contributers of the project are: </h3>
-
  
  <h3>1. The File called <em>DecimalFractionToBinary.java</em> will be converting floating point numbers to equivalent binary numbers according to the following question:<br></h3>
 
